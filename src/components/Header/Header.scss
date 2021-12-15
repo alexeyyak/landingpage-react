@@ -1,0 +1,43 @@
+.nav {
+  display: flex;
+  align-items: center;
+  padding-left: 18px;
+  &__logo {
+    margin-right: 43px;
+  }
+
+  ul {
+    display: flex;
+    font-family: 'Gilroy-Semibold';
+    li {
+      text-transform: uppercase;
+      &:not(:last-child) {
+        padding-right: 16px;
+      }
+
+      a {
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: normal;
+        color: #b5b5b5;
+        opacity: 0.8;
+        transition: 0.2;
+        -webkit-transition: 0.2;
+        -moz-transition: 0.2;
+        -ms-transition: 0.2;
+        -o-transition: 0.2;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  &__btns {
+    margin-left: auto;
+    button {
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+  }
+}

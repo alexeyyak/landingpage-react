@@ -1,0 +1,23 @@
+@import '../../style/variable';
+
+.frameSection {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 105px;
+  position: relative;
+  &::before {
+    content: url('../../assets/img/star.png');
+
+    position: absolute;
+    top: -92px;
+    left: -167px;
+  }
+  img {
+    cursor: pointer;
+    opacity: 0.4;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}

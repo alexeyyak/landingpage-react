@@ -1,0 +1,60 @@
+.main {
+  flex: 1 0 auto;
+  margin-top: 135px;
+  position: relative;
+  padding: 0 15px;
+  &__desc {
+    &-title {
+      color: #99efd0;
+      font-size: 45px;
+      width: 530px;
+      line-height: 50px;
+    }
+    &-text {
+      color: $t1;
+      padding-top: 18px;
+      font-family: 'Gilroy-Semibold';
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    right: -165px;
+    top: -30px;
+  }
+
+  &__btns {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    button:first-child {
+      margin-right: 20px;
+    }
+  }
+  .main__video {
+    display: flex;
+    align-items: center;
+    &-desc {
+      padding-left: 25px;
+      color: $t1;
+      display: flex;
+      flex-direction: column;
+      a {
+        padding-top: 12px;
+        color: $natural;
+        font-size: 14px;
+        line-height: 22px;
+        opacity: 0.6;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .reactPlayer {
+    width: 140px;
+    height: 80px;
+  }
+}

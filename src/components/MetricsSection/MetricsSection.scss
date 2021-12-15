@@ -1,0 +1,47 @@
+@import '../../style/variable';
+
+.metricsSection {
+  margin-top: 140px;
+}
+
+.mericsSection__desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  h1 {
+    font-size: 36px;
+    line-height: 42px;
+    color: $t2;
+    letter-spacing: 1px;
+    padding-bottom: 28px;
+    span {
+      color: $orange;
+    }
+  }
+  p {
+    padding-top: 2px;
+  }
+}
+
+.metricsSection__pluses {
+  padding: 15px 15px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+    li {
+      width: 291px;
+      display: block;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  &-title {
+    font-size: 36px;
+  }
+  &-desc {
+    padding: 15px 38px 0;
+  }
+}

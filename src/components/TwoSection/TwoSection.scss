@@ -1,0 +1,55 @@
+@import '../../style/variable';
+
+.twoSection {
+  margin-top: 100px;
+  margin-left: 55px;
+  &__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    &-title {
+      color: $t2;
+      font-size: 42px;
+      line-height: 50px;
+    }
+    &-text {
+      font-family: 'Gilroy-Semibold';
+      font-size: 16px;
+      line-height: 22px;
+      color: $t1;
+      padding-top: 15px;
+    }
+  }
+  &__features {
+    padding-top: 50px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    &-desc {
+      h4 {
+        font-size: 18px;
+        line-height: 22px;
+        color: $t2;
+        font-family: 'Gilroy-bold';
+      }
+      p {
+        font-size: 14px;
+        line-height: 22px;
+        color: $t1;
+        padding-top: 8px;
+        font-family: 'Gilroy-Semibold';
+      }
+    }
+    &-block {
+      display: flex;
+      align-items: flex-start;
+      width: 300px;
+      padding-bottom: 45px;
+    }
+    &-logo {
+      padding-right: 30px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.headline {
+  position: relative;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  h1 {
+    font-size: 42px;
+    span {
+      color: $orange;
+    }
+  }
+  button {
+    position: absolute;
+    z-index: 10;
+    top: 152px;
+    left: 473px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+  }
+  img {
+    position: absolute;
+    top: 65px;
+    left: -48px;
+  }
+}

@@ -1,0 +1,100 @@
+.information {
+  display: flex;
+  margin-top: 296px;
+  position: relative;
+  &-left {
+    padding-left: 100px;
+    padding-right: 127px;
+    position: relative;
+    z-index: 100;
+    div {
+    }
+  }
+  &-right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+  }
+}
+
+.heldFiding {
+  padding-bottom: 50px;
+  h2 {
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.8px;
+    padding-bottom: 31px;
+  }
+  p {
+    letter-spacing: 0.2px;
+  }
+}
+
+.block {
+  z-index: 100;
+}
+.block2 {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 2px;
+  z-index: -1;
+}
+
+.feature {
+  display: flex;
+  position: relative;
+}
+.featureTwo {
+  position: absolute;
+  top: 0;
+  right: -95px;
+  width: 224px;
+}
+.featureOne {
+  width: 224px;
+}
+
+.feature-title {
+  padding-top: 15px;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}
+.feature-desc {
+  padding-top: 8px;
+  letter-spacing: 0.3px;
+}
+.information-img {
+  background-color: red;
+}
+.information-svg {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+}
+
+.info1 {
+  position: absolute;
+  top: 205px;
+  left: 21px;
+  z-index: 1;
+}
+.info2 {
+  position: absolute;
+  left: 447px;
+  top: 210px;
+  z-index: 1;
+}
+.info3 {
+  position: absolute;
+  top: -24px;
+  left: 63px;
+  z-index: 1;
+}
+
+.star3 {
+  position: absolute;
+  top: -98px;
+  right: -186px;
+}

@@ -1,0 +1,62 @@
+@import '../../style/variable';
+
+.footer {
+  margin-top: 180px;
+  position: relative;
+  &-socials {
+    display: flex;
+    justify-content: space-between;
+    h3 {
+      color: $orange;
+    }
+    &-icons {
+      display: flex;
+      a:not(:first-child) {
+        margin-left: 16px;
+      }
+    }
+  }
+
+  &-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 95px;
+    &-section {
+      display: flex;
+      flex-direction: column;
+      h4 {
+        font-family: 'Inter';
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        color: #ffffff;
+        margin-bottom: 25px;
+      }
+      a {
+        font-family: 'Inter';
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #ffffff;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  &-copyright {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p:not(:last-child) {
+      margin-right: 32px;
+    }
+  }
+}
+
+.footer-img {
+  position: absolute;
+  top: -45px;
+  right: 72px;
+}

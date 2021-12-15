@@ -1,0 +1,66 @@
+@import '../../style/variable';
+
+.btn {
+  font-size: 12px;
+  width: 155px;
+  height: 45px;
+  align-items: center;
+  color: white;
+  background-color: $orange;
+  text-transform: uppercase;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+  border-radius: 3px;
+  border: 1px solid $orange;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn-transparent {
+  width: 155px;
+  height: 45px;
+  background-color: transparent;
+  color: orange;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border: 1px solid $orange;
+  &:hover {
+    color: white;
+    background-color: $orange;
+  }
+}
+
+.btn-xs {
+  font-size: 12px;
+  width: 112px;
+  height: 36px;
+  color: white;
+  background-color: $orange;
+  text-transform: uppercase;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+  border-radius: 3px;
+  border: 1px solid $orange;
+}
+.btn-xs-transparent {
+  width: 112px;
+  height: 36px;
+  background-color: transparent;
+  color: orange;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border: 1px solid $orange;
+  &:hover {
+    color: white;
+    background-color: $orange;
+  }
+}
